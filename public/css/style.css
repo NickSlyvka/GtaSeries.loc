@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background: url(../image/2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Raleway';
+  font-size: 16px;
+  margin-bottom: 5%;
+}
+
+a {
+  color: white;
+}
+
+a:hover, a:focus {
+  color: white;
+  text-decoration: none;
+  outline: 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.navbar-static-top {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.dropdown-menu {
+  background: #5d5d5d;
+}
+
+.dropdown-menu li a {
+  color: white;
+}
+
+.about {
+  /*background: #64b8cf;*/
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.news {
+  /*background: #85dd89;*/
+  padding: 20px;
+  color: white;
+}
+
+.news img {
+  width: 300px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+/* Стили для кнопок авторизации */
+.nav-but a {
+  color: #9d9d9d;
+  font-size: 15px;
+}
+.nav-but a:hover {
+  color: #fff;
+}
+.nav-but {
+  background: #222;
+  border: none;
+}
+.nav-but:hover {
+  background: #222;
+}
+/* Стили для формы регистрации */
+div.row h1 {
+  margin-top: 5%;
+  color: white;
+}
+
+label.control-label {
+  color: white;
+}
+
+input.reg {
+  background: url(../image/toyota-camry.jpg);
+  font-size: 16px;
+  color: black;
+  width: 31%;
+}
+
+input.form-control.rega {
+  background: url(../image/xc70.jpg);
+  margin-top: 5px;
+}
+
+input.form-control:focus {
+  border: 1px solid black;
+}
+
+div.reg_auth {
+  /*background-image: url(../image/bentley.jpg);
+  border: 1px solid black;
+  border-radius: 5px;*/
+  margin-top: 20px;
+  padding: 10px;
+}
+
+div.reg_auth p {
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  /*text-align: center;*/
+}
+
+div.reg_auth button {
+  background: url(../image/mercedes-amg.jpg);
+}
+
+div.reg_auth button a {
+  color: white;
+  font-weight: bold
+}
+
+.freg span {
+  color: #a94442;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.freg span.send {
+  color: #3c763d;
+}
+
+/* Стили для формы авторизации */
+.panel.panel-default{
+  margin-top: 5%;
+  border: none;
+}
+
+.panel-default > .panel-heading {
+  color: white;
+}
+
+.panel-default > .panel-body {
+  background: url(../image/2.jpg);
+}
+
+.checkbox label {
+  color: white;
+}
+
+.form-group input {
+  background: url(../image/xc70.jpg);
+}
+
+/* Стили для формы обратной связи */
+.fback label {
+  color: white;
+}
+
+.fback h3 {
+  font-size: 30px;
+  color: white;
+  margin-top: 5%;
+}
+
+.fback input.form-control {
+  background: url(../image/xc70.jpg);
+  margin-top: 5px;
+}
+
+.form-group textarea {
+  background: url(../image/xc70.jpg);
+  margin-top: 5px;
+  border: 1px solid black;
+}
+
+.fback span {
+  color: #a94442;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.fback span.send {
+  color: #3c763d;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.form-group.error {
+  margin-bottom: 0px;
+}
+
+/* Стили для таблицы */
+h2.tabl {
+  color: white;
+  margin-top: 15%;
+  margin-bottom: 20px;
+}
+table th {
+  text-align: center;
+}
+
+table {
+  color: white;
+}
+
+/* Стили для изменения профиля */
+#form_edit h2 {
+  color: white;
+  margin-top: 10%;
+}
+
+#form_edit span {
+  color: #a94442;
+  font-weight: bolder;
+}
+#form_edit span.ps {
+  color: #3c763d;
+  font-weight: bolder;
+}
+#form_edit input {
+  background: url(../image/xc70.jpg);
+}
+
+#form_edit input#edit_b {
+  background: url(../image/toyota-camry.jpg);
+  font-weight: bolder;
+  font-size: 18px;
+  width: 15%;
+}
+
+/* Стили для футера */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  color: white;
+  background: #2d2d2d;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.footer i {
+  color: #bdbdbd;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.footer i:hover {
+  color: #ff7878;
+}
+
+/* Стили для странички о-нас */
+.etabs {
+  margin-top: 3%;
+}
+#etabs a:hover{
+  color: black;
+}
+#etabs a:focus{
+  background: none;
+  color: white;
+}
+.etabs h3, p {
+  color: white;
+}
+#tab_li li {
+  color: white;
+  margin-left: 15px;
+}
+address {
+  color: white;
+  text-align: center;
+}
+
+/* Стили для gtav информация */
+.img {
+  margin-top: 3%;
+  margin-bottom: 20px;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+.video {
+  border: 5px solid black;
+}
+h2 {
+  color: #9f9f9f;
+}
+h4, p {
+  text-align: left;
+  color: #b5b4b4;
+}
+ul {
+  margin-left: 20px;
+  text-align: left;
+  color: #b5b4b4;
+}
+/* Стили для аккордеона */
+.panel-default > .panel-heading {
+  background: url(../image/2.jpg);
+}
+.panel {
+  border: 1px solid #5d5d5d;
+}
+.pan1 {
+  background: url(../image/2.jpg);
+}
+.pan1 table {
+  margin: 0 auto;
+}
+.pan1 td {
+  padding: 5px;
+}
+.pan a {
+  color: #9f9f9f;
+}
+.pan a:focus, a:hover {
+  color: #c8c4c4;
+}
