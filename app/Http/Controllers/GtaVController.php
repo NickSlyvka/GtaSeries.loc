@@ -17,7 +17,7 @@ class GtaVController extends Controller
         $title = 'GTA V город';
         return view('gtav_city')->with('title',$title);
     }
-        //gtav_sist.blade
+        //gtav_sist.blade.php
     public function gtav_sist() {
         $title = 'GTA V системные требования';
         return view('gtav_sist')->with('title',$title);
