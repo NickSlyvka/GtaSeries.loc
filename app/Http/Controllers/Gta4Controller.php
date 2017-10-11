@@ -11,7 +11,7 @@ class Gta4Controller extends Controller
         $title = 'GTA 4 информация';
         return view('gta4_info')->with('title',$title);
     }
-
+        //gta4_pers.blade.php
     public function gta4_pers() {
         $title = 'GTA 4 персонажи';
         return view('gta4_pers')->with('title',$title);
