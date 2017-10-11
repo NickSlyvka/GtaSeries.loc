@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class GtaVController extends Controller
 {
-        //gtav_info.blade
+        //gtav_info.blade.php
     public function gtav_info() {
         $title = 'GTA V информация';
         return view('gtav_info')->with('title',$title);
