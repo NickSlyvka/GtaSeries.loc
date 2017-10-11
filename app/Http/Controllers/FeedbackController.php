@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class FeedbackController extends Controller
 {
+        //feedback.php
     public function feedback() {
         $title = 'Обратная связь';
         return view('feedback')->with('title',$title);
