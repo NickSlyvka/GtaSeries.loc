@@ -18,6 +18,7 @@ class Gta4Controller extends Controller
     }
 
     public function gta4_eflc() {
+
         $title = 'GTA 4 EFLC';
         return view('gta4_eflc')->with('title',$title);
     }
