@@ -10,7 +10,7 @@ class FeedbackController extends Controller
         $title = 'Обратная связь';
         return view('feedback')->with('title',$title);
     }
-
+        //about.blade.php
     public function about() {
         $title = 'О нас';
         return view('about')->with('title',$title);
