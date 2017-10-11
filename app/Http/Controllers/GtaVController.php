@@ -12,7 +12,7 @@ class GtaVController extends Controller
         return view('gtav_info')->with('title',$title);
     }
 
-        //gtav_city.blade
+        //gtav_city.blade.php
     public function gtav_city() {
         $title = 'GTA V город';
         return view('gtav_city')->with('title',$title);
