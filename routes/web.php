@@ -15,6 +15,8 @@
 //     return view('welcome');
 // });
 
+//Роуты сайта
+
 Route::get('/', 'IndexController@index'); //Главная страница
 Route::get('signup', 'SignController@signup'); //Регистрация
 Route::get('signin', 'SignController@signin'); //Авторизация
