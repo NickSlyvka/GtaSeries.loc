@@ -11,7 +11,7 @@ class GtaOController extends Controller
         $title = 'GTA ONLINE информация';
         return view('gtao_info')->with('title',$title);
     }
-
+        //gtao_pers.blade.php
     public function gtao_pers() {
         $title = 'GTA ONLINE персонажи';
         return view('gtao_pers')->with('title',$title);
