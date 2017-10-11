@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class Gta4Controller extends Controller
 {
+        //gta4_info.blade.php
     public function gta4_info() {
         $title = 'GTA 4 информация';
         return view('gta4_info')->with('title',$title);
